@@ -1,15 +1,15 @@
 {
-  "name": "igu-tinamit",
+  "name": "tunuy-tinamit",
   "version": "1.0.0",
-  "description": "Un interfaz para Tinamït.",
-  "main": "central.js",
+  "description": "Rokisanel tunüy kematz'ib' ri cholkema' Tinamït rub'i'.",
+  "main": "nik'ajal.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Sachoj: majun rutojtob'enik\" && exit 1",
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julienmalard/IGU-Tinamit.git"
+    "url": "git+https://github.com/julienmalard/Tunuy-Tinamit.git"
   },
   "keywords": [
     "tinamït"
@@ -17,7 +17,7 @@
   "author": "Julien Malard",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/julienmalard/IGU-Tinamit/issues"
+    "url": "https://github.com/julienmalard/Tunuy-Tinamit/issues"
   },
-  "homepage": "https://github.com/julienmalard/IGU-Tinamit#readme"
+  "homepage": "https://github.com/julienmalard/Tunuy-Tinamit#readme"
 }

@@ -1,2 +1,2 @@
-# IGU-Tinamit
-Un interfaz para Tinamït.
+# Tunüy-Tinamit
+Rokisanel tunüy ri cholkema' Tinamït rub'i'.
