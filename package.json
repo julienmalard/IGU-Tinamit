@@ -2,7 +2,7 @@
   "name": "tunuy-tinamit",
   "version": "1.0.0",
   "description": "Rokisanel tunüy kematz'ib' ri cholkema' Tinamït rub'i'.",
-  "main": "nik'ajal.js",
+  "main": "./ruxe'el/nik'ajal.js",
   "scripts": {
     "test": "echo \"Sachoj: majun rutojtob'enik\" && exit 1",
     "start": "electron ."
@@ -12,12 +12,16 @@
     "url": "git+https://github.com/julienmalard/Tunuy-Tinamit.git"
   },
   "keywords": [
-    "tinamït"
+    "tinamït",
+    "rokisanel tunüy"
   ],
   "author": "Julien Malard",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/julienmalard/Tunuy-Tinamit/issues"
   },
-  "homepage": "https://github.com/julienmalard/Tunuy-Tinamit#readme"
+  "homepage": "https://github.com/julienmalard/Tunuy-Tinamit#readme",
+  "devDependencies": {
+    "electron": "^2.0.2"
+  }
 }
