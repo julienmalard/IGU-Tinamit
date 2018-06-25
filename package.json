@@ -2,7 +2,7 @@
   "name": "tunuy-tinamit",
   "version": "1.0.0",
   "description": "Rokisanel tunüy kematz'ib' ri cholkema' Tinamït rub'i'.",
-  "main": "./ruxe'el/nik'ajal.js",
+  "main": "./relesaxïk/nik'ajal.js",
   "scripts": {
     "test": "echo \"Sachoj: majun rutojtob'enik\" && exit 1",
     "start": "electron ."

@@ -13,7 +13,10 @@ gulp.task('css', function() {
 
 gulp.task('js', function() {
   return gulp.src(ruxeel + "/**/*.js")
-    .pipe(rikonem.babel())
+    .pipe(rikonem.babel({
+            plugins: ['transform-react-jsx'],
+            presets: ['env']
+        }))
     .pipe(gulp.dest(relesaxïk))
 });
 
@@ -26,13 +29,19 @@ gulp.task('koolirisaj', function() {
     .pipe(gulp.dest(relesaxïk + "/chjl/css/"));
 });
 
-gulp.task('tabana', ['css', 'js']);
+gulp.task('tawachibej', function() {
+  return gulp.src(ruxeel + "/**/*.{html, png, jpeg}")
+    .pipe(gulp.dest(relesaxïk))
+})
+
+gulp.task('tabana', ['css', 'js', 'tawachibej']);
 
 gulp.task('taelesaj', ['tabana', 'koolirisaj']);
 
 gulp.task('tatzu', function() {
   gulp.watch(ruxeel + "/chjl/css/**/*.less", ['css']);
   gulp.watch(ruxeel + "/**/*.js", ['js']);
+  gulp.watch(ruxeel + "/**/*.{html, png, jpeg}", ['tawachibej']);
 });
 
 gulp.task('default', ['tabana'])
