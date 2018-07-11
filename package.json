@@ -37,6 +37,7 @@
     "gulp-autoprefixer": "latest"
   },
   "dependencies": {
+    "electron-store": "^2.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   }

@@ -14,13 +14,13 @@ function createWindow () {
     height: 900,
     minWidth: 800,
     minHeight: 600,
-    icon: path.join(__dirname, "chjl/wach'ib'äl/tinamìt_ko'ol.png")
+    icon: path.join(__dirname, "chjl/wach'ib'äl/tinamït_ko'ol.png")
   })
   win.setMenu(null)
 
   // and load the index.html of the app.
   win.loadURL(url.format({
-    pathname: path.join(__dirname, 'cholwuj.html'),
+    pathname: path.join(__dirname, 'chjl/cholwuj.html'),
     protocol: 'file:',
     slashes: true
   }))

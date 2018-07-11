@@ -30,8 +30,8 @@ gulp.task('koolirisaj', function() {
 });
 
 gulp.task('tawachibej', function() {
-  return gulp.src(ruxeel + "/**/*.{html, png, jpeg}")
-    .pipe(gulp.dest(relesaxïk))
+  return gulp.src(ruxeel + "/chjl/**/*.{html,png,jpeg}")
+    .pipe(gulp.dest(relesaxïk + "/chjl/"))
 })
 
 gulp.task('tabana', ['css', 'js', 'tawachibej']);
@@ -41,7 +41,7 @@ gulp.task('taelesaj', ['tabana', 'koolirisaj']);
 gulp.task('tatzu', function() {
   gulp.watch(ruxeel + "/chjl/css/**/*.less", ['css']);
   gulp.watch(ruxeel + "/**/*.js", ['js']);
-  gulp.watch(ruxeel + "/**/*.{html, png, jpeg}", ['tawachibej']);
+  gulp.watch(ruxeel + "/chjl/**/*.{html,png,jpeg}", ['tawachibej']);
 });
 
 gulp.task('default', ['tabana'])
